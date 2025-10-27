@@ -79,8 +79,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   const ctx = canvas.getContext("2d");
   
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  const source = audioCtx.createMediaElementSource(audio);
-  const analyser = audioCtx.createAnalyser();
+  document.querySelector('#playButton').addEventListener('click', () => {
+    if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+    // Start playing your audio here
+  });
   
   source.connect(analyser);
   analyser.connect(audioCtx.destination);
