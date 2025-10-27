@@ -1,7 +1,7 @@
 console.log("artist.js loaded");
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const artists = await fetch("../sources/data/artists.json").then(r => r.json());
+  const artists = await fetch("../sources/data/artists_fixed.json").then(r => r.json());
   const selectedName = localStorage.getItem("selectedArtist");
   const artist = artists.find(a => a.name === selectedName);
 
