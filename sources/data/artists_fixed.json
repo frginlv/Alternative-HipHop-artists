@@ -1,3 +1,4 @@
+[
 {
   "name": "Earl Sweatshirt",
   "image": "../covers/images/earl sweatshirt.jpg",
@@ -53,7 +54,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "Navy Blue",
   "image": "../covers/images/navy blue.png",
@@ -108,7 +109,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "MIKE",
   "image": "../covers/images/mike.webp",
@@ -200,7 +201,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "MAVI",
   "image": "../covers/images/mavi.jpg",
@@ -267,7 +268,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "Billy Woods",
   "image": "../covers/images/billy woods.jpg",
@@ -355,7 +356,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "MF DOOM",
   "image": "../covers/images/MF DOOM.png",
@@ -454,7 +455,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "Action Bronson",
   "image": "../covers/images/action bronson.png",
@@ -518,7 +519,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "Mac Miller",
   "image": "../covers/images/mac miller.png",
@@ -598,7 +599,7 @@
       ]
     }
   ]
-}
+},
 {
   "name": "Boldy James & The Alchemist",
   "image": "../covers/images/boldy james.jpg",
@@ -650,4 +651,4 @@
       ]
     }
   ]
-}
+}]
