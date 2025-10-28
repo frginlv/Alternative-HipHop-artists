@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   document.querySelector('#playButton').addEventListener('click', () => {
     if (audioCtx.state === 'suspended') {
-        audioCtx.resume();
+      audioCtx.resume();
     }
     // Start playing your audio here
   });
